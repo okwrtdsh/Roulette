@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pocket"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="5dp"
+    card_view:cardBackgroundColor="@color/blue"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="number"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/number"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/number"
+            android:text="comment"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
